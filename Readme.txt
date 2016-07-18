@@ -1,0 +1,1 @@
+vagrant ubuntu/trusty64 with ansible provision
