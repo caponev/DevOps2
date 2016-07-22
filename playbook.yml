@@ -1,0 +1,12 @@
+---
+- host: atlanta
+
+  become: true
+
+  become_user: vagrant
+
+  tasks:
+
+    - name: install inginx
+
+      apt: name=nginx state=installed
